@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 67, 67);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(34, 112, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fig{
+    text-align: center;
+    
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.conteúdo{
+    border: 2px solid rgb(219, 154, 68);
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(80, 150, 95);
+    text-align: center;
+}
+
+.lugares{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.fig:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    border: 2px solid rgb(255, 64, 64);
+    border-radius: 5px;
+}
